@@ -1,0 +1,12 @@
+.rounded {
+  border-radius: 10px;
+  &-lg {
+    border-radius: 20px;
+  }
+  &-sm {
+    border-radius: 5px;
+  }
+}
+.circle {
+  border-radius: 50%;
+}

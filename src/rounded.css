@@ -1,0 +1,16 @@
+.rounded {
+  border-radius: 10px;
+}
+
+.rounded-lg {
+  border-radius: 20px;
+}
+
+.rounded-sm {
+  border-radius: 5px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=rounded.css.map */

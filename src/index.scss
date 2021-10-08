@@ -1,0 +1,126 @@
+@import "colors";
+@import "jumbotron";
+@import "rounded";
+@import "padding";
+@import "buttons";
+$no-of-columns: 12;
+
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+.container {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  &-lg {
+    padding: 60px;
+  }
+
+  &-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0px;
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.text {
+  &-vintage {
+    &-green {
+      color: $vintage-green;
+    }
+    &-cream {
+      color: $vintage-cream;
+    }
+    &-pink {
+      color: $vintage-pink;
+    }
+    &-brown {
+      color: $vintage-brown;
+    }
+  }
+  &-white {
+    background: $white;
+  }
+}
+.bg {
+  &-vintage {
+    &-green {
+      background-color: $vintage-green;
+    }
+    &-cream {
+      background-color: $vintage-cream;
+    }
+    &-pink {
+      background-color: $vintage-pink;
+    }
+    &-brown {
+      background-color: $vintage-brown;
+    }
+  }
+  &-neon {
+    &-green {
+      background-color: $neon-green;
+    }
+    &-red {
+      background-color: $neon-red;
+    }
+    &-pink {
+      background-color: $neon-pink;
+    }
+    &-blue {
+      background-color: $neon-blue;
+    }
+  }
+  &-instagram {
+    background: $instagram;
+  }
+  &-special {
+    background: $special;
+  }
+  &-dark {
+    background: $dark;
+  }
+  &-white {
+    background: $white;
+  }
+}
+.border {
+  border: 1px solid black;
+  &-red {
+    border-color: red;
+  }
+  &-green {
+    border-color: green;
+  }
+}
+@each $breakpoint, $value in $breakpoints {
+  // MEDIA QUERY
+  @media only screen and (min-width: $value) {
+    // RESPONSIVE COLUMN CODE .....
+    @for $i from 1 through $no-of-columns {
+      .col-#{$breakpoint}-#{$i} {
+        width: (100% / ($no-of-columns / $i));
+      }
+    }
+  }
+}
