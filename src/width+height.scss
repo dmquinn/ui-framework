@@ -1,0 +1,18 @@
+@for $i from 0 through 100 {
+  .w-#{$i} {
+    width: round(percentage($i/100));
+  }
+}
+@for $i from 1 through 100 {
+  .h-#{$i} {
+    height: 35px + ($i * 10);
+  }
+}
+.h {
+  &-half {
+    height: 50%;
+  }
+  &-full {
+    height: 50%;
+  }
+}

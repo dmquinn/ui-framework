@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAE,IAAG,CAAC,mBAAmB;CAIlD;;AAHE,AAAD,YAAM,CAAC;EACL,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,mBAAmB;CAClD",
+    "sources": [
+        "shadows.scss"
+    ],
+    "names": [],
+    "file": "shadows.css"
+}

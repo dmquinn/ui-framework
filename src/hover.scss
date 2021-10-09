@@ -1,0 +1,10 @@
+.hover {
+  &-shadow:hover {
+    box-shadow: -18px 2px 47px 16px rgba(0, 0, 0, 0.24);
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
+  &-blur:hover {
+    filter: blur(9.5px);
+  }
+}
