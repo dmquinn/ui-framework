@@ -1,5 +1,9 @@
-button {
+.button {
   padding: 10px;
   border: 0;
-  background: none;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-size: 0 3px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all 0.2s ease-out;
 }

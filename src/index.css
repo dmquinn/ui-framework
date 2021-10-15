@@ -1,3 +1,411 @@
+.bg-green {
+  background-color: #00ff6a;
+}
+
+.bg-green-dark {
+  background-color: #009940;
+}
+
+.bg-green-darker {
+  background-color: #003315;
+}
+
+.bg-green-darkest {
+  background-color: #00240f;
+}
+
+.bg-green-light {
+  background-color: #66ffa6;
+}
+
+.bg-green-lighter {
+  background-color: #ccffe1;
+}
+
+.bg-green-lightest {
+  background-color: #dbffea;
+}
+
+.bg-green-mute {
+  background-color: #00ff6a;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.text-green {
+  background-color: #00ff6a;
+}
+
+.text-green-dark {
+  color: #009940;
+}
+
+.text-green-darker {
+  color: #003315;
+}
+
+.text-green-darkest {
+  color: #00240f;
+}
+
+.text-green-light {
+  color: #66ffa6;
+}
+
+.text-green-lighter {
+  color: #ccffe1;
+}
+
+.text-green-lightest {
+  color: #dbffea;
+}
+
+.text-green-mute {
+  color: #00ff6a;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-yellow {
+  background-color: #ffea00;
+}
+
+.bg-yellow-dark {
+  background-color: #998c00;
+}
+
+.bg-yellow-darker {
+  background-color: #332f00;
+}
+
+.bg-yellow-darkest {
+  background-color: #242100;
+}
+
+.bg-yellow-light {
+  background-color: #fff266;
+}
+
+.bg-yellow-lighter {
+  background-color: #fffbcc;
+}
+
+.bg-yellow-lightest {
+  background-color: #fffcdb;
+}
+
+.bg-yellow-mute {
+  background-color: #ffea00;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.text-yellow {
+  background-color: #ffea00;
+}
+
+.text-yellow-dark {
+  color: #998c00;
+}
+
+.text-yellow-darker {
+  color: #332f00;
+}
+
+.text-yellow-darkest {
+  color: #242100;
+}
+
+.text-yellow-light {
+  color: #fff266;
+}
+
+.text-yellow-lighter {
+  color: #fffbcc;
+}
+
+.text-yellow-lightest {
+  color: #fffcdb;
+}
+
+.text-yellow-mute {
+  color: #ffea00;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-grey {
+  background-color: #c5c5c5;
+}
+
+.bg-grey-dark {
+  background-color: #929292;
+}
+
+.bg-grey-darker {
+  background-color: #5f5f5f;
+}
+
+.bg-grey-darkest {
+  background-color: #575757;
+}
+
+.bg-grey-light {
+  background-color: #f8f8f8;
+}
+
+.bg-grey-lighter {
+  background-color: white;
+}
+
+.bg-grey-lightest {
+  background-color: white;
+}
+
+.bg-grey-mute {
+  background-color: #c5c5c5;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.text-grey {
+  background-color: #c5c5c5;
+}
+
+.text-grey-dark {
+  color: #929292;
+}
+
+.text-grey-darker {
+  color: #5f5f5f;
+}
+
+.text-grey-darkest {
+  color: #575757;
+}
+
+.text-grey-light {
+  color: #f8f8f8;
+}
+
+.text-grey-lighter {
+  color: white;
+}
+
+.text-grey-lightest {
+  color: white;
+}
+
+.text-grey-mute {
+  color: #c5c5c5;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-pink {
+  background-color: #e9a5af;
+}
+
+.bg-pink-dark {
+  background-color: #d55366;
+}
+
+.bg-pink-darker {
+  background-color: #9c2637;
+}
+
+.bg-pink-darkest {
+  background-color: #902333;
+}
+
+.bg-pink-light {
+  background-color: #fdf7f8;
+}
+
+.bg-pink-lighter {
+  background-color: white;
+}
+
+.bg-pink-lightest {
+  background-color: white;
+}
+
+.bg-pink-mute {
+  background-color: #e9a5af;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.text-pink {
+  background-color: #e9a5af;
+}
+
+.text-pink-dark {
+  color: #d55366;
+}
+
+.text-pink-darker {
+  color: #9c2637;
+}
+
+.text-pink-darkest {
+  color: #902333;
+}
+
+.text-pink-light {
+  color: #fdf7f8;
+}
+
+.text-pink-lighter {
+  color: white;
+}
+
+.text-pink-lightest {
+  color: white;
+}
+
+.text-pink-mute {
+  color: #e9a5af;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-red {
+  background-color: #df1a1a;
+}
+
+.bg-red-dark {
+  background-color: #840f0f;
+}
+
+.bg-red-darker {
+  background-color: #280505;
+}
+
+.bg-red-darkest {
+  background-color: #1b0303;
+}
+
+.bg-red-light {
+  background-color: #ee7171;
+}
+
+.bg-red-lighter {
+  background-color: #f9cccc;
+}
+
+.bg-red-lightest {
+  background-color: #fbdada;
+}
+
+.bg-red-mute {
+  background-color: #df1a1a;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.text-red {
+  background-color: #df1a1a;
+}
+
+.text-red-dark {
+  color: #840f0f;
+}
+
+.text-red-darker {
+  color: #280505;
+}
+
+.text-red-darkest {
+  color: #1b0303;
+}
+
+.text-red-light {
+  color: #ee7171;
+}
+
+.text-red-lighter {
+  color: #f9cccc;
+}
+
+.text-red-lightest {
+  color: #fbdada;
+}
+
+.text-red-mute {
+  color: #df1a1a;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-blue {
+  background-color: #00a2ff;
+}
+
+.bg-blue-dark {
+  background-color: #006199;
+}
+
+.bg-blue-darker {
+  background-color: #002033;
+}
+
+.bg-blue-darkest {
+  background-color: #001724;
+}
+
+.bg-blue-light {
+  background-color: #66c7ff;
+}
+
+.bg-blue-lighter {
+  background-color: #ccecff;
+}
+
+.bg-blue-lightest {
+  background-color: #dbf2ff;
+}
+
+.bg-blue-mute {
+  background-color: #00a2ff;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.text-blue {
+  background-color: #00a2ff;
+}
+
+.text-blue-dark {
+  color: #006199;
+}
+
+.text-blue-darker {
+  color: #002033;
+}
+
+.text-blue-darkest {
+  color: #001724;
+}
+
+.text-blue-light {
+  color: #66c7ff;
+}
+
+.text-blue-lighter {
+  color: #ccecff;
+}
+
+.text-blue-lightest {
+  color: #dbf2ff;
+}
+
+.text-blue-mute {
+  color: #00a2ff;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
 .jumbotron {
   height: 400px;
   width: 100%;
@@ -619,10 +1027,16 @@
   margin-bottom: 15rem;
 }
 
-button {
+.button {
   padding: 10px;
   border: 0;
-  background: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+  background-image: linear-gradient(white, white);
+  background-size: 0 3px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .shadow {
@@ -1448,17 +1862,420 @@ button {
 }
 
 .hover-shadow:hover {
-  -webkit-box-shadow: -18px 2px 47px 16px rgba(0, 0, 0, 0.24);
-          box-shadow: -18px 2px 47px 16px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 10px 10px 20px rgba(17, 17, 17, 0.349);
+          box-shadow: 10px 10px 20px rgba(17, 17, 17, 0.349);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.hover-blur:hover {
-  -webkit-filter: blur(9.5px);
-          filter: blur(9.5px);
+.hover-underline:hover {
+  background-size: 100% 5px, auto;
+}
+
+.o-0 {
+  opacity: 0%;
+}
+
+.o-1 {
+  opacity: 1%;
+}
+
+.o-2 {
+  opacity: 2%;
+}
+
+.o-3 {
+  opacity: 3%;
+}
+
+.o-4 {
+  opacity: 4%;
+}
+
+.o-5 {
+  opacity: 5%;
+}
+
+.o-6 {
+  opacity: 6%;
+}
+
+.o-7 {
+  opacity: 7%;
+}
+
+.o-8 {
+  opacity: 8%;
+}
+
+.o-9 {
+  opacity: 9%;
+}
+
+.o-10 {
+  opacity: 10%;
+}
+
+.o-11 {
+  opacity: 11%;
+}
+
+.o-12 {
+  opacity: 12%;
+}
+
+.o-13 {
+  opacity: 13%;
+}
+
+.o-14 {
+  opacity: 14%;
+}
+
+.o-15 {
+  opacity: 15%;
+}
+
+.o-16 {
+  opacity: 16%;
+}
+
+.o-17 {
+  opacity: 17%;
+}
+
+.o-18 {
+  opacity: 18%;
+}
+
+.o-19 {
+  opacity: 19%;
+}
+
+.o-20 {
+  opacity: 20%;
+}
+
+.o-21 {
+  opacity: 21%;
+}
+
+.o-22 {
+  opacity: 22%;
+}
+
+.o-23 {
+  opacity: 23%;
+}
+
+.o-24 {
+  opacity: 24%;
+}
+
+.o-25 {
+  opacity: 25%;
+}
+
+.o-26 {
+  opacity: 26%;
+}
+
+.o-27 {
+  opacity: 27%;
+}
+
+.o-28 {
+  opacity: 28%;
+}
+
+.o-29 {
+  opacity: 29%;
+}
+
+.o-30 {
+  opacity: 30%;
+}
+
+.o-31 {
+  opacity: 31%;
+}
+
+.o-32 {
+  opacity: 32%;
+}
+
+.o-33 {
+  opacity: 33%;
+}
+
+.o-34 {
+  opacity: 34%;
+}
+
+.o-35 {
+  opacity: 35%;
+}
+
+.o-36 {
+  opacity: 36%;
+}
+
+.o-37 {
+  opacity: 37%;
+}
+
+.o-38 {
+  opacity: 38%;
+}
+
+.o-39 {
+  opacity: 39%;
+}
+
+.o-40 {
+  opacity: 40%;
+}
+
+.o-41 {
+  opacity: 41%;
+}
+
+.o-42 {
+  opacity: 42%;
+}
+
+.o-43 {
+  opacity: 43%;
+}
+
+.o-44 {
+  opacity: 44%;
+}
+
+.o-45 {
+  opacity: 45%;
+}
+
+.o-46 {
+  opacity: 46%;
+}
+
+.o-47 {
+  opacity: 47%;
+}
+
+.o-48 {
+  opacity: 48%;
+}
+
+.o-49 {
+  opacity: 49%;
+}
+
+.o-50 {
+  opacity: 50%;
+}
+
+.o-51 {
+  opacity: 51%;
+}
+
+.o-52 {
+  opacity: 52%;
+}
+
+.o-53 {
+  opacity: 53%;
+}
+
+.o-54 {
+  opacity: 54%;
+}
+
+.o-55 {
+  opacity: 55%;
+}
+
+.o-56 {
+  opacity: 56%;
+}
+
+.o-57 {
+  opacity: 57%;
+}
+
+.o-58 {
+  opacity: 58%;
+}
+
+.o-59 {
+  opacity: 59%;
+}
+
+.o-60 {
+  opacity: 60%;
+}
+
+.o-61 {
+  opacity: 61%;
+}
+
+.o-62 {
+  opacity: 62%;
+}
+
+.o-63 {
+  opacity: 63%;
+}
+
+.o-64 {
+  opacity: 64%;
+}
+
+.o-65 {
+  opacity: 65%;
+}
+
+.o-66 {
+  opacity: 66%;
+}
+
+.o-67 {
+  opacity: 67%;
+}
+
+.o-68 {
+  opacity: 68%;
+}
+
+.o-69 {
+  opacity: 69%;
+}
+
+.o-70 {
+  opacity: 70%;
+}
+
+.o-71 {
+  opacity: 71%;
+}
+
+.o-72 {
+  opacity: 72%;
+}
+
+.o-73 {
+  opacity: 73%;
+}
+
+.o-74 {
+  opacity: 74%;
+}
+
+.o-75 {
+  opacity: 75%;
+}
+
+.o-76 {
+  opacity: 76%;
+}
+
+.o-77 {
+  opacity: 77%;
+}
+
+.o-78 {
+  opacity: 78%;
+}
+
+.o-79 {
+  opacity: 79%;
+}
+
+.o-80 {
+  opacity: 80%;
+}
+
+.o-81 {
+  opacity: 81%;
+}
+
+.o-82 {
+  opacity: 82%;
+}
+
+.o-83 {
+  opacity: 83%;
+}
+
+.o-84 {
+  opacity: 84%;
+}
+
+.o-85 {
+  opacity: 85%;
+}
+
+.o-86 {
+  opacity: 86%;
+}
+
+.o-87 {
+  opacity: 87%;
+}
+
+.o-88 {
+  opacity: 88%;
+}
+
+.o-89 {
+  opacity: 89%;
+}
+
+.o-90 {
+  opacity: 90%;
+}
+
+.o-91 {
+  opacity: 91%;
+}
+
+.o-92 {
+  opacity: 92%;
+}
+
+.o-93 {
+  opacity: 93%;
+}
+
+.o-94 {
+  opacity: 94%;
+}
+
+.o-95 {
+  opacity: 95%;
+}
+
+.o-96 {
+  opacity: 96%;
+}
+
+.o-97 {
+  opacity: 97%;
+}
+
+.o-98 {
+  opacity: 98%;
+}
+
+.o-99 {
+  opacity: 99%;
+}
+
+.o-100 {
+  opacity: 100%;
 }
 
 * {
@@ -1490,11 +2307,20 @@ body {
 
 .glass-light {
   background: rgba(255, 255, 255, 0.096);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(58, 59, 61, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(58, 59, 61, 0.37);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-dark {
+  background: rgba(11, 3, 59, 0.24);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(58, 59, 61, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(58, 59, 61, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(84, 130, 182, 0.18);
 }
 
 .container {
@@ -1535,77 +2361,8 @@ body {
   width: 100%;
 }
 
-.text-vintage-green {
-  color: #9dcac2;
-}
-
-.text-vintage-cream {
-  color: #f3f1db;
-}
-
-.text-vintage-pink {
-  color: #d8a1a9;
-}
-
-.text-vintage-brown {
-  color: #8c8185;
-}
-
-.text-white {
-  color: white;
-}
-
 .text-glass {
   opacity: 50%;
-}
-
-.bg-vintage-green {
-  background-color: #9dcac2;
-}
-
-.bg-vintage-cream {
-  background-color: #f3f1db;
-}
-
-.bg-vintage-pink {
-  background-color: #d8a1a9;
-}
-
-.bg-vintage-brown {
-  background-color: #8c8185;
-}
-
-.bg-neon-green {
-  background-color: #02b8a2;
-}
-
-.bg-neon-red {
-  background-color: #ce133b;
-}
-
-.bg-neon-pink {
-  background-color: #ff61be;
-}
-
-.bg-neon-blue {
-  background-color: #3b55ce;
-}
-
-.bg-instagram {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-}
-
-.bg-special {
-  background: radial-gradient(circle, #22c1c3 0%, #fdbb2d 100%);
-}
-
-.bg-dark {
-  background: #141414;
-}
-
-.bg-white {
-  background: white;
 }
 
 .border {

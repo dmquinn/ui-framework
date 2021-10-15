@@ -1,6 +1,12 @@
-button {
+.button {
   padding: 10px;
   border: 0;
-  background: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+  background-image: linear-gradient(white, white);
+  background-size: 0 3px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 /*# sourceMappingURL=buttons.css.map */

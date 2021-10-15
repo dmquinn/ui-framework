@@ -1,10 +1,10 @@
 .hover {
   &-shadow:hover {
-    box-shadow: -18px 2px 47px 16px rgba(0, 0, 0, 0.24);
+    box-shadow: 10px 10px 20px rgba(17, 17, 17, 0.349);
     transform: scale(1.05);
     transition: 0.4s;
   }
-  &-blur:hover {
-    filter: blur(9.5px);
+  &-underline:hover {
+    background-size: 100% 5px, auto;
   }
 }

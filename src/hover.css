@@ -1,14 +1,13 @@
 .hover-shadow:hover {
-  -webkit-box-shadow: -18px 2px 47px 16px rgba(0, 0, 0, 0.24);
-          box-shadow: -18px 2px 47px 16px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 10px 10px 20px rgba(17, 17, 17, 0.349);
+          box-shadow: 10px 10px 20px rgba(17, 17, 17, 0.349);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.hover-blur:hover {
-  -webkit-filter: blur(9.5px);
-          filter: blur(9.5px);
+.hover-underline:hover {
+  background-size: 100% 5px, auto;
 }
 /*# sourceMappingURL=hover.css.map */
