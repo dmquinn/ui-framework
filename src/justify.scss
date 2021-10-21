@@ -1,0 +1,17 @@
+.j {
+  &-start {
+    justify-content: start;
+  }
+  &-end {
+    justify-content: end;
+  }
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+  &-around {
+    justify-content: space-around;
+  }
+}

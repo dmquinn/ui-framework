@@ -1,0 +1,43 @@
+$no-of-columns: 12;
+
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+);
+
+.container {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background-image: ulr("logo192.png");
+  &-lg {
+    padding: 60px;
+  }
+
+  &-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @media only screen and (min-width: $value) {
+    @for $i from 1 through $no-of-columns {
+      .col-#{$breakpoint}-#{$i} {
+        width: (100% / ($no-of-columns / $i));
+      }
+    }
+  }
+}

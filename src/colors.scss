@@ -3,8 +3,12 @@ $colors: (
   "yellow": #ffea00,
   "grey": #c5c5c5,
   "pink": #e9a5af,
-  "red": #df1a1a,
+  "red": #ff0000,
   "blue": #00a2ff,
+  "black": black,
+  "white": white,
+  "purple": purple,
+  "brown": brown,
 );
 
 @each $name, $color in $colors {
@@ -12,26 +16,30 @@ $colors: (
     background-color: $color;
 
     &-dark {
-      background-color: darken($color, 20%);
+      background-color: darken($color, 10%);
     }
     &-darker {
-      background-color: darken($color, 40%);
+      background-color: darken($color, 20%);
     }
     &-darkest {
-      background-color: darken($color, 43%);
+      background-color: darken($color, 33%);
     }
     &-light {
-      background-color: lighten($color, 20%);
+      background-color: lighten($color, 10%);
     }
     &-lighter {
-      background-color: lighten($color, 40%);
+      background-color: lighten($color, 20%);
     }
     &-lightest {
-      background-color: lighten($color, 43%);
+      background-color: lighten($color, 33%);
     }
     &-mute {
       background-color: $color;
-      filter: saturate(40%);
+      filter: saturate(50%);
+    }
+    &-muter {
+      background-color: $color;
+      filter: saturate(30%);
     }
   }
   .text-#{$name} {
@@ -59,5 +67,10 @@ $colors: (
       color: $color;
       filter: saturate(40%);
     }
+  }
+}
+@each $color, $color in $colors {
+  .lg-#{$color} {
+    background: linear-gradient($color, $color);
   }
 }

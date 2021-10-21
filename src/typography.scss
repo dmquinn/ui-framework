@@ -1,0 +1,11 @@
+.bold {
+  font-weight: bold;
+}
+.light {
+  font-weight: 300;
+}
+@for $i from 1 through 100 {
+  .text-#{$i} {
+    font-size: #{$i}px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,QAAO,CAAC;EACN,eAAe,EAAE,KAAK;CACvB;;AACA,AAAD,MAAK,CAAC;EACJ,eAAe,EAAE,GAAG;CACrB;;AACA,AAAD,SAAQ,CAAC;EACP,eAAe,EAAE,MAAM;CACxB;;AACA,AAAD,UAAS,CAAC;EACR,eAAe,EAAE,aAAa;CAC/B;;AACA,AAAD,SAAQ,CAAC;EACP,eAAe,EAAE,YAAY;CAC9B",
+    "sources": [
+        "justify.scss"
+    ],
+    "names": [],
+    "file": "justify.css"
+}

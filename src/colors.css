@@ -3,33 +3,39 @@
 }
 
 .bg-green-dark {
-  background-color: #009940;
+  background-color: #00cc55;
 }
 
 .bg-green-darker {
-  background-color: #003315;
+  background-color: #009940;
 }
 
 .bg-green-darkest {
-  background-color: #00240f;
+  background-color: #005724;
 }
 
 .bg-green-light {
-  background-color: #66ffa6;
+  background-color: #33ff88;
 }
 
 .bg-green-lighter {
-  background-color: #ccffe1;
+  background-color: #66ffa6;
 }
 
 .bg-green-lightest {
-  background-color: #dbffea;
+  background-color: #a8ffcc;
 }
 
 .bg-green-mute {
   background-color: #00ff6a;
-  -webkit-filter: saturate(40%);
-          filter: saturate(40%);
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-green-muter {
+  background-color: #00ff6a;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
 }
 
 .text-green {
@@ -71,33 +77,39 @@
 }
 
 .bg-yellow-dark {
-  background-color: #998c00;
+  background-color: #ccbb00;
 }
 
 .bg-yellow-darker {
-  background-color: #332f00;
+  background-color: #998c00;
 }
 
 .bg-yellow-darkest {
-  background-color: #242100;
+  background-color: #575000;
 }
 
 .bg-yellow-light {
-  background-color: #fff266;
+  background-color: #ffee33;
 }
 
 .bg-yellow-lighter {
-  background-color: #fffbcc;
+  background-color: #fff266;
 }
 
 .bg-yellow-lightest {
-  background-color: #fffcdb;
+  background-color: #fff8a8;
 }
 
 .bg-yellow-mute {
   background-color: #ffea00;
-  -webkit-filter: saturate(40%);
-          filter: saturate(40%);
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-yellow-muter {
+  background-color: #ffea00;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
 }
 
 .text-yellow {
@@ -139,23 +151,23 @@
 }
 
 .bg-grey-dark {
-  background-color: #929292;
+  background-color: #acacac;
 }
 
 .bg-grey-darker {
-  background-color: #5f5f5f;
+  background-color: #929292;
 }
 
 .bg-grey-darkest {
-  background-color: #575757;
+  background-color: #717171;
 }
 
 .bg-grey-light {
-  background-color: #f8f8f8;
+  background-color: #dfdfdf;
 }
 
 .bg-grey-lighter {
-  background-color: white;
+  background-color: #f8f8f8;
 }
 
 .bg-grey-lightest {
@@ -164,8 +176,14 @@
 
 .bg-grey-mute {
   background-color: #c5c5c5;
-  -webkit-filter: saturate(40%);
-          filter: saturate(40%);
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-grey-muter {
+  background-color: #c5c5c5;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
 }
 
 .text-grey {
@@ -207,23 +225,23 @@
 }
 
 .bg-pink-dark {
-  background-color: #d55366;
+  background-color: #df7c8b;
 }
 
 .bg-pink-darker {
-  background-color: #9c2637;
+  background-color: #d55366;
 }
 
 .bg-pink-darkest {
-  background-color: #902333;
+  background-color: #b92d42;
 }
 
 .bg-pink-light {
-  background-color: #fdf7f8;
+  background-color: #f3ced3;
 }
 
 .bg-pink-lighter {
-  background-color: white;
+  background-color: #fdf7f8;
 }
 
 .bg-pink-lightest {
@@ -232,8 +250,14 @@
 
 .bg-pink-mute {
   background-color: #e9a5af;
-  -webkit-filter: saturate(40%);
-          filter: saturate(40%);
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-pink-muter {
+  background-color: #e9a5af;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
 }
 
 .text-pink {
@@ -271,69 +295,75 @@
 }
 
 .bg-red {
-  background-color: #df1a1a;
+  background-color: #ff0000;
 }
 
 .bg-red-dark {
-  background-color: #840f0f;
+  background-color: #cc0000;
 }
 
 .bg-red-darker {
-  background-color: #280505;
+  background-color: #990000;
 }
 
 .bg-red-darkest {
-  background-color: #1b0303;
+  background-color: #570000;
 }
 
 .bg-red-light {
-  background-color: #ee7171;
+  background-color: #ff3333;
 }
 
 .bg-red-lighter {
-  background-color: #f9cccc;
+  background-color: #ff6666;
 }
 
 .bg-red-lightest {
-  background-color: #fbdada;
+  background-color: #ffa8a8;
 }
 
 .bg-red-mute {
-  background-color: #df1a1a;
-  -webkit-filter: saturate(40%);
-          filter: saturate(40%);
+  background-color: #ff0000;
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-red-muter {
+  background-color: #ff0000;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
 }
 
 .text-red {
-  background-color: #df1a1a;
+  background-color: #ff0000;
 }
 
 .text-red-dark {
-  color: #840f0f;
+  color: #990000;
 }
 
 .text-red-darker {
-  color: #280505;
+  color: #330000;
 }
 
 .text-red-darkest {
-  color: #1b0303;
+  color: #240000;
 }
 
 .text-red-light {
-  color: #ee7171;
+  color: #ff6666;
 }
 
 .text-red-lighter {
-  color: #f9cccc;
+  color: #ffcccc;
 }
 
 .text-red-lightest {
-  color: #fbdada;
+  color: #ffdbdb;
 }
 
 .text-red-mute {
-  color: #df1a1a;
+  color: #ff0000;
   -webkit-filter: saturate(40%);
           filter: saturate(40%);
 }
@@ -343,33 +373,39 @@
 }
 
 .bg-blue-dark {
-  background-color: #006199;
+  background-color: #0082cc;
 }
 
 .bg-blue-darker {
-  background-color: #002033;
+  background-color: #006199;
 }
 
 .bg-blue-darkest {
-  background-color: #001724;
+  background-color: #003757;
 }
 
 .bg-blue-light {
-  background-color: #66c7ff;
+  background-color: #33b5ff;
 }
 
 .bg-blue-lighter {
-  background-color: #ccecff;
+  background-color: #66c7ff;
 }
 
 .bg-blue-lightest {
-  background-color: #dbf2ff;
+  background-color: #a8dfff;
 }
 
 .bg-blue-mute {
   background-color: #00a2ff;
-  -webkit-filter: saturate(40%);
-          filter: saturate(40%);
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-blue-muter {
+  background-color: #00a2ff;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
 }
 
 .text-blue {
@@ -404,5 +440,351 @@
   color: #00a2ff;
   -webkit-filter: saturate(40%);
           filter: saturate(40%);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-black-dark {
+  background-color: black;
+}
+
+.bg-black-darker {
+  background-color: black;
+}
+
+.bg-black-darkest {
+  background-color: black;
+}
+
+.bg-black-light {
+  background-color: #1a1a1a;
+}
+
+.bg-black-lighter {
+  background-color: #333333;
+}
+
+.bg-black-lightest {
+  background-color: #545454;
+}
+
+.bg-black-mute {
+  background-color: black;
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-black-muter {
+  background-color: black;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
+}
+
+.text-black {
+  background-color: black;
+}
+
+.text-black-dark {
+  color: black;
+}
+
+.text-black-darker {
+  color: black;
+}
+
+.text-black-darkest {
+  color: black;
+}
+
+.text-black-light {
+  color: #333333;
+}
+
+.text-black-lighter {
+  color: #666666;
+}
+
+.text-black-lightest {
+  color: #6e6e6e;
+}
+
+.text-black-mute {
+  color: black;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-white-dark {
+  background-color: #e6e6e6;
+}
+
+.bg-white-darker {
+  background-color: #cccccc;
+}
+
+.bg-white-darkest {
+  background-color: #ababab;
+}
+
+.bg-white-light {
+  background-color: white;
+}
+
+.bg-white-lighter {
+  background-color: white;
+}
+
+.bg-white-lightest {
+  background-color: white;
+}
+
+.bg-white-mute {
+  background-color: white;
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-white-muter {
+  background-color: white;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
+}
+
+.text-white {
+  background-color: white;
+}
+
+.text-white-dark {
+  color: #cccccc;
+}
+
+.text-white-darker {
+  color: #999999;
+}
+
+.text-white-darkest {
+  color: #919191;
+}
+
+.text-white-light {
+  color: white;
+}
+
+.text-white-lighter {
+  color: white;
+}
+
+.text-white-lightest {
+  color: white;
+}
+
+.text-white-mute {
+  color: white;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-purple-dark {
+  background-color: #4d004d;
+}
+
+.bg-purple-darker {
+  background-color: #1a001a;
+}
+
+.bg-purple-darkest {
+  background-color: black;
+}
+
+.bg-purple-light {
+  background-color: #b300b3;
+}
+
+.bg-purple-lighter {
+  background-color: #e600e6;
+}
+
+.bg-purple-lightest {
+  background-color: #ff29ff;
+}
+
+.bg-purple-mute {
+  background-color: purple;
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-purple-muter {
+  background-color: purple;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
+}
+
+.text-purple {
+  background-color: purple;
+}
+
+.text-purple-dark {
+  color: #1a001a;
+}
+
+.text-purple-darker {
+  color: black;
+}
+
+.text-purple-darkest {
+  color: black;
+}
+
+.text-purple-light {
+  color: #e600e6;
+}
+
+.text-purple-lighter {
+  color: #ff4dff;
+}
+
+.text-purple-lightest {
+  color: #ff5cff;
+}
+
+.text-purple-mute {
+  color: purple;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.bg-brown-dark {
+  background-color: #7c2020;
+}
+
+.bg-brown-darker {
+  background-color: #541515;
+}
+
+.bg-brown-darkest {
+  background-color: #1f0808;
+}
+
+.bg-brown-light {
+  background-color: #cc3636;
+}
+
+.bg-brown-lighter {
+  background-color: #d65f5f;
+}
+
+.bg-brown-lightest {
+  background-color: #e49494;
+}
+
+.bg-brown-mute {
+  background-color: brown;
+  -webkit-filter: saturate(50%);
+          filter: saturate(50%);
+}
+
+.bg-brown-muter {
+  background-color: brown;
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
+}
+
+.text-brown {
+  background-color: brown;
+}
+
+.text-brown-dark {
+  color: #541515;
+}
+
+.text-brown-darker {
+  color: #020101;
+}
+
+.text-brown-darkest {
+  color: black;
+}
+
+.text-brown-light {
+  color: #d65f5f;
+}
+
+.text-brown-lighter {
+  color: #ebb0b0;
+}
+
+.text-brown-lightest {
+  color: #eebcbc;
+}
+
+.text-brown-mute {
+  color: brown;
+  -webkit-filter: saturate(40%);
+          filter: saturate(40%);
+}
+
+.lg-#00ff6a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00ff6a), to(#00ff6a));
+  background: linear-gradient(#00ff6a, #00ff6a);
+}
+
+.lg-#ffea00 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffea00), to(#ffea00));
+  background: linear-gradient(#ffea00, #ffea00);
+}
+
+.lg-#c5c5c5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c5c5c5), to(#c5c5c5));
+  background: linear-gradient(#c5c5c5, #c5c5c5);
+}
+
+.lg-#e9a5af {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e9a5af), to(#e9a5af));
+  background: linear-gradient(#e9a5af, #e9a5af);
+}
+
+.lg-#ff0000 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000));
+  background: linear-gradient(#ff0000, #ff0000);
+}
+
+.lg-#00a2ff {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00a2ff), to(#00a2ff));
+  background: linear-gradient(#00a2ff, #00a2ff);
+}
+
+.lg-black {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background: linear-gradient(black, black);
+}
+
+.lg-white {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+  background: linear-gradient(white, white);
+}
+
+.lg-purple {
+  background: -webkit-gradient(linear, left top, left bottom, from(purple), to(purple));
+  background: linear-gradient(purple, purple);
+}
+
+.lg-brown {
+  background: -webkit-gradient(linear, left top, left bottom, from(brown), to(brown));
+  background: linear-gradient(brown, brown);
 }
 /*# sourceMappingURL=colors.css.map */

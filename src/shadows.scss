@@ -1,6 +1,9 @@
 .shadow {
-  box-shadow: 4px 4px 40px -8px rgba(0, 0, 0, 0.43);
+  box-shadow: 0.2vw 0.2vw 1vw rgba(0, 0, 0, 0.315);
   &-deep {
-    box-shadow: 2px 2px 52px 16px rgba(0, 0, 0, 0.24);
+    box-shadow: 0.2vw 0.2vw 3vw 1vw rgba(0, 0, 0, 0.288);
+  }
+  &-subtle {
+    box-shadow: 0.2vw 0.2vw 2vw 1vw rgba(0, 0, 0, 0.089);
   }
 }

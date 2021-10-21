@@ -1,0 +1,47 @@
+.dropdown ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.dropdown ul li {
+  display: inline-block;
+}
+
+.dropdown ul li:hover > ul {
+  display: inherit;
+}
+
+.dropdown ul a {
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown ul ul {
+  display: none;
+  position: absolute;
+}
+
+.dropdown ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.dropdown ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+  content: " ";
+}
+
+li > a:only-child:after {
+  content: "";
+}
+/*# sourceMappingURL=dropdown.css.map */

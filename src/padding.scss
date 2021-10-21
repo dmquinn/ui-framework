@@ -1,4 +1,4 @@
-@for $i from 1 through 15 {
+@for $i from -15 through 15 {
   // Paddings
   .p-#{$i} {
     padding: #{$i}rem;
