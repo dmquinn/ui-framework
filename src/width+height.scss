@@ -13,6 +13,14 @@
     height: 50%;
   }
   &-full {
-    height: 50%;
+    height: 100%;
+  }
+}
+.w {
+  &-half {
+    width: 50%;
+  }
+  &-full {
+    width: 100%;
   }
 }

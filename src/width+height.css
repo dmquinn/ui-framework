@@ -807,6 +807,14 @@
 }
 
 .h-full {
-  height: 50%;
+  height: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
 }
 /*# sourceMappingURL=width+height.css.map */

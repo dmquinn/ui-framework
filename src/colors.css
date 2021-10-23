@@ -39,7 +39,7 @@
 }
 
 .text-green {
-  background-color: #00ff6a;
+  color: #00ff6a;
 }
 
 .text-green-dark {
@@ -113,7 +113,7 @@
 }
 
 .text-yellow {
-  background-color: #ffea00;
+  color: #ffea00;
 }
 
 .text-yellow-dark {
@@ -187,7 +187,7 @@
 }
 
 .text-grey {
-  background-color: #c5c5c5;
+  color: #c5c5c5;
 }
 
 .text-grey-dark {
@@ -261,7 +261,7 @@
 }
 
 .text-pink {
-  background-color: #e9a5af;
+  color: #e9a5af;
 }
 
 .text-pink-dark {
@@ -335,7 +335,7 @@
 }
 
 .text-red {
-  background-color: #ff0000;
+  color: #ff0000;
 }
 
 .text-red-dark {
@@ -409,7 +409,7 @@
 }
 
 .text-blue {
-  background-color: #00a2ff;
+  color: #00a2ff;
 }
 
 .text-blue-dark {
@@ -483,7 +483,7 @@
 }
 
 .text-black {
-  background-color: black;
+  color: black;
 }
 
 .text-black-dark {
@@ -557,7 +557,7 @@
 }
 
 .text-white {
-  background-color: white;
+  color: white;
 }
 
 .text-white-dark {
@@ -631,7 +631,7 @@
 }
 
 .text-purple {
-  background-color: purple;
+  color: purple;
 }
 
 .text-purple-dark {
@@ -705,7 +705,7 @@
 }
 
 .text-brown {
-  background-color: brown;
+  color: brown;
 }
 
 .text-brown-dark {

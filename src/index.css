@@ -39,7 +39,7 @@
 }
 
 .text-green {
-  background-color: #00ff6a;
+  color: #00ff6a;
 }
 
 .text-green-dark {
@@ -113,7 +113,7 @@
 }
 
 .text-yellow {
-  background-color: #ffea00;
+  color: #ffea00;
 }
 
 .text-yellow-dark {
@@ -187,7 +187,7 @@
 }
 
 .text-grey {
-  background-color: #c5c5c5;
+  color: #c5c5c5;
 }
 
 .text-grey-dark {
@@ -261,7 +261,7 @@
 }
 
 .text-pink {
-  background-color: #e9a5af;
+  color: #e9a5af;
 }
 
 .text-pink-dark {
@@ -335,7 +335,7 @@
 }
 
 .text-red {
-  background-color: #ff0000;
+  color: #ff0000;
 }
 
 .text-red-dark {
@@ -409,7 +409,7 @@
 }
 
 .text-blue {
-  background-color: #00a2ff;
+  color: #00a2ff;
 }
 
 .text-blue-dark {
@@ -483,7 +483,7 @@
 }
 
 .text-black {
-  background-color: black;
+  color: black;
 }
 
 .text-black-dark {
@@ -557,7 +557,7 @@
 }
 
 .text-white {
-  background-color: white;
+  color: white;
 }
 
 .text-white-dark {
@@ -631,7 +631,7 @@
 }
 
 .text-purple {
-  background-color: purple;
+  color: purple;
 }
 
 .text-purple-dark {
@@ -705,7 +705,7 @@
 }
 
 .text-brown {
-  background-color: brown;
+  color: brown;
 }
 
 .text-brown-dark {
@@ -2885,7 +2885,15 @@
 }
 
 .h-full {
-  height: 50%;
+  height: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .hover-shadow:hover {
@@ -3334,6 +3342,24 @@
       justify-content: space-around;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.text-start {
+  text-align: left;
+}
+
+.text-middle {
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
 .glass {
   background: rgba(255, 255, 255, 0.25);
   -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -3411,7 +3437,6 @@
   display: block;
   width: 100%;
   padding: 20px;
-  background-image: ulr("logo192.png");
 }
 
 .container-lg {
@@ -3443,7 +3468,7 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 0px) {
   .col-sm-1 {
     width: 8.33333%;
   }
@@ -4069,6 +4094,1218 @@ ul li {
   font-size: 100px;
 }
 
+@media only screen and (min-width: 576px) {
+  .text-sm-1 {
+    font-size: 8.33333%;
+  }
+  .text-sm-2 {
+    font-size: 16.66667%;
+  }
+  .text-sm-3 {
+    font-size: 25%;
+  }
+  .text-sm-4 {
+    font-size: 33.33333%;
+  }
+  .text-sm-5 {
+    font-size: 41.66667%;
+  }
+  .text-sm-6 {
+    font-size: 50%;
+  }
+  .text-sm-7 {
+    font-size: 58.33333%;
+  }
+  .text-sm-8 {
+    font-size: 66.66667%;
+  }
+  .text-sm-9 {
+    font-size: 75%;
+  }
+  .text-sm-10 {
+    font-size: 83.33333%;
+  }
+  .text-sm-11 {
+    font-size: 91.66667%;
+  }
+  .text-sm-12 {
+    font-size: 100%;
+  }
+  .text-sm-13 {
+    font-size: 108.33333%;
+  }
+  .text-sm-14 {
+    font-size: 116.66667%;
+  }
+  .text-sm-15 {
+    font-size: 125%;
+  }
+  .text-sm-16 {
+    font-size: 133.33333%;
+  }
+  .text-sm-17 {
+    font-size: 141.66667%;
+  }
+  .text-sm-18 {
+    font-size: 150%;
+  }
+  .text-sm-19 {
+    font-size: 158.33333%;
+  }
+  .text-sm-20 {
+    font-size: 166.66667%;
+  }
+  .text-sm-21 {
+    font-size: 175%;
+  }
+  .text-sm-22 {
+    font-size: 183.33333%;
+  }
+  .text-sm-23 {
+    font-size: 191.66667%;
+  }
+  .text-sm-24 {
+    font-size: 200%;
+  }
+  .text-sm-25 {
+    font-size: 208.33333%;
+  }
+  .text-sm-26 {
+    font-size: 216.66667%;
+  }
+  .text-sm-27 {
+    font-size: 225%;
+  }
+  .text-sm-28 {
+    font-size: 233.33333%;
+  }
+  .text-sm-29 {
+    font-size: 241.66667%;
+  }
+  .text-sm-30 {
+    font-size: 250%;
+  }
+  .text-sm-31 {
+    font-size: 258.33333%;
+  }
+  .text-sm-32 {
+    font-size: 266.66667%;
+  }
+  .text-sm-33 {
+    font-size: 275%;
+  }
+  .text-sm-34 {
+    font-size: 283.33333%;
+  }
+  .text-sm-35 {
+    font-size: 291.66667%;
+  }
+  .text-sm-36 {
+    font-size: 300%;
+  }
+  .text-sm-37 {
+    font-size: 308.33333%;
+  }
+  .text-sm-38 {
+    font-size: 316.66667%;
+  }
+  .text-sm-39 {
+    font-size: 325%;
+  }
+  .text-sm-40 {
+    font-size: 333.33333%;
+  }
+  .text-sm-41 {
+    font-size: 341.66667%;
+  }
+  .text-sm-42 {
+    font-size: 350%;
+  }
+  .text-sm-43 {
+    font-size: 358.33333%;
+  }
+  .text-sm-44 {
+    font-size: 366.66667%;
+  }
+  .text-sm-45 {
+    font-size: 375%;
+  }
+  .text-sm-46 {
+    font-size: 383.33333%;
+  }
+  .text-sm-47 {
+    font-size: 391.66667%;
+  }
+  .text-sm-48 {
+    font-size: 400%;
+  }
+  .text-sm-49 {
+    font-size: 408.33333%;
+  }
+  .text-sm-50 {
+    font-size: 416.66667%;
+  }
+  .text-sm-51 {
+    font-size: 425%;
+  }
+  .text-sm-52 {
+    font-size: 433.33333%;
+  }
+  .text-sm-53 {
+    font-size: 441.66667%;
+  }
+  .text-sm-54 {
+    font-size: 450%;
+  }
+  .text-sm-55 {
+    font-size: 458.33333%;
+  }
+  .text-sm-56 {
+    font-size: 466.66667%;
+  }
+  .text-sm-57 {
+    font-size: 475%;
+  }
+  .text-sm-58 {
+    font-size: 483.33333%;
+  }
+  .text-sm-59 {
+    font-size: 491.66667%;
+  }
+  .text-sm-60 {
+    font-size: 500%;
+  }
+  .text-sm-61 {
+    font-size: 508.33333%;
+  }
+  .text-sm-62 {
+    font-size: 516.66667%;
+  }
+  .text-sm-63 {
+    font-size: 525%;
+  }
+  .text-sm-64 {
+    font-size: 533.33333%;
+  }
+  .text-sm-65 {
+    font-size: 541.66667%;
+  }
+  .text-sm-66 {
+    font-size: 550%;
+  }
+  .text-sm-67 {
+    font-size: 558.33333%;
+  }
+  .text-sm-68 {
+    font-size: 566.66667%;
+  }
+  .text-sm-69 {
+    font-size: 575%;
+  }
+  .text-sm-70 {
+    font-size: 583.33333%;
+  }
+  .text-sm-71 {
+    font-size: 591.66667%;
+  }
+  .text-sm-72 {
+    font-size: 600%;
+  }
+  .text-sm-73 {
+    font-size: 608.33333%;
+  }
+  .text-sm-74 {
+    font-size: 616.66667%;
+  }
+  .text-sm-75 {
+    font-size: 625%;
+  }
+  .text-sm-76 {
+    font-size: 633.33333%;
+  }
+  .text-sm-77 {
+    font-size: 641.66667%;
+  }
+  .text-sm-78 {
+    font-size: 650%;
+  }
+  .text-sm-79 {
+    font-size: 658.33333%;
+  }
+  .text-sm-80 {
+    font-size: 666.66667%;
+  }
+  .text-sm-81 {
+    font-size: 675%;
+  }
+  .text-sm-82 {
+    font-size: 683.33333%;
+  }
+  .text-sm-83 {
+    font-size: 691.66667%;
+  }
+  .text-sm-84 {
+    font-size: 700%;
+  }
+  .text-sm-85 {
+    font-size: 708.33333%;
+  }
+  .text-sm-86 {
+    font-size: 716.66667%;
+  }
+  .text-sm-87 {
+    font-size: 725%;
+  }
+  .text-sm-88 {
+    font-size: 733.33333%;
+  }
+  .text-sm-89 {
+    font-size: 741.66667%;
+  }
+  .text-sm-90 {
+    font-size: 750%;
+  }
+  .text-sm-91 {
+    font-size: 758.33333%;
+  }
+  .text-sm-92 {
+    font-size: 766.66667%;
+  }
+  .text-sm-93 {
+    font-size: 775%;
+  }
+  .text-sm-94 {
+    font-size: 783.33333%;
+  }
+  .text-sm-95 {
+    font-size: 791.66667%;
+  }
+  .text-sm-96 {
+    font-size: 800%;
+  }
+  .text-sm-97 {
+    font-size: 808.33333%;
+  }
+  .text-sm-98 {
+    font-size: 816.66667%;
+  }
+  .text-sm-99 {
+    font-size: 825%;
+  }
+  .text-sm-100 {
+    font-size: 833.33333%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .text-md-1 {
+    font-size: 8.33333%;
+  }
+  .text-md-2 {
+    font-size: 16.66667%;
+  }
+  .text-md-3 {
+    font-size: 25%;
+  }
+  .text-md-4 {
+    font-size: 33.33333%;
+  }
+  .text-md-5 {
+    font-size: 41.66667%;
+  }
+  .text-md-6 {
+    font-size: 50%;
+  }
+  .text-md-7 {
+    font-size: 58.33333%;
+  }
+  .text-md-8 {
+    font-size: 66.66667%;
+  }
+  .text-md-9 {
+    font-size: 75%;
+  }
+  .text-md-10 {
+    font-size: 83.33333%;
+  }
+  .text-md-11 {
+    font-size: 91.66667%;
+  }
+  .text-md-12 {
+    font-size: 100%;
+  }
+  .text-md-13 {
+    font-size: 108.33333%;
+  }
+  .text-md-14 {
+    font-size: 116.66667%;
+  }
+  .text-md-15 {
+    font-size: 125%;
+  }
+  .text-md-16 {
+    font-size: 133.33333%;
+  }
+  .text-md-17 {
+    font-size: 141.66667%;
+  }
+  .text-md-18 {
+    font-size: 150%;
+  }
+  .text-md-19 {
+    font-size: 158.33333%;
+  }
+  .text-md-20 {
+    font-size: 166.66667%;
+  }
+  .text-md-21 {
+    font-size: 175%;
+  }
+  .text-md-22 {
+    font-size: 183.33333%;
+  }
+  .text-md-23 {
+    font-size: 191.66667%;
+  }
+  .text-md-24 {
+    font-size: 200%;
+  }
+  .text-md-25 {
+    font-size: 208.33333%;
+  }
+  .text-md-26 {
+    font-size: 216.66667%;
+  }
+  .text-md-27 {
+    font-size: 225%;
+  }
+  .text-md-28 {
+    font-size: 233.33333%;
+  }
+  .text-md-29 {
+    font-size: 241.66667%;
+  }
+  .text-md-30 {
+    font-size: 250%;
+  }
+  .text-md-31 {
+    font-size: 258.33333%;
+  }
+  .text-md-32 {
+    font-size: 266.66667%;
+  }
+  .text-md-33 {
+    font-size: 275%;
+  }
+  .text-md-34 {
+    font-size: 283.33333%;
+  }
+  .text-md-35 {
+    font-size: 291.66667%;
+  }
+  .text-md-36 {
+    font-size: 300%;
+  }
+  .text-md-37 {
+    font-size: 308.33333%;
+  }
+  .text-md-38 {
+    font-size: 316.66667%;
+  }
+  .text-md-39 {
+    font-size: 325%;
+  }
+  .text-md-40 {
+    font-size: 333.33333%;
+  }
+  .text-md-41 {
+    font-size: 341.66667%;
+  }
+  .text-md-42 {
+    font-size: 350%;
+  }
+  .text-md-43 {
+    font-size: 358.33333%;
+  }
+  .text-md-44 {
+    font-size: 366.66667%;
+  }
+  .text-md-45 {
+    font-size: 375%;
+  }
+  .text-md-46 {
+    font-size: 383.33333%;
+  }
+  .text-md-47 {
+    font-size: 391.66667%;
+  }
+  .text-md-48 {
+    font-size: 400%;
+  }
+  .text-md-49 {
+    font-size: 408.33333%;
+  }
+  .text-md-50 {
+    font-size: 416.66667%;
+  }
+  .text-md-51 {
+    font-size: 425%;
+  }
+  .text-md-52 {
+    font-size: 433.33333%;
+  }
+  .text-md-53 {
+    font-size: 441.66667%;
+  }
+  .text-md-54 {
+    font-size: 450%;
+  }
+  .text-md-55 {
+    font-size: 458.33333%;
+  }
+  .text-md-56 {
+    font-size: 466.66667%;
+  }
+  .text-md-57 {
+    font-size: 475%;
+  }
+  .text-md-58 {
+    font-size: 483.33333%;
+  }
+  .text-md-59 {
+    font-size: 491.66667%;
+  }
+  .text-md-60 {
+    font-size: 500%;
+  }
+  .text-md-61 {
+    font-size: 508.33333%;
+  }
+  .text-md-62 {
+    font-size: 516.66667%;
+  }
+  .text-md-63 {
+    font-size: 525%;
+  }
+  .text-md-64 {
+    font-size: 533.33333%;
+  }
+  .text-md-65 {
+    font-size: 541.66667%;
+  }
+  .text-md-66 {
+    font-size: 550%;
+  }
+  .text-md-67 {
+    font-size: 558.33333%;
+  }
+  .text-md-68 {
+    font-size: 566.66667%;
+  }
+  .text-md-69 {
+    font-size: 575%;
+  }
+  .text-md-70 {
+    font-size: 583.33333%;
+  }
+  .text-md-71 {
+    font-size: 591.66667%;
+  }
+  .text-md-72 {
+    font-size: 600%;
+  }
+  .text-md-73 {
+    font-size: 608.33333%;
+  }
+  .text-md-74 {
+    font-size: 616.66667%;
+  }
+  .text-md-75 {
+    font-size: 625%;
+  }
+  .text-md-76 {
+    font-size: 633.33333%;
+  }
+  .text-md-77 {
+    font-size: 641.66667%;
+  }
+  .text-md-78 {
+    font-size: 650%;
+  }
+  .text-md-79 {
+    font-size: 658.33333%;
+  }
+  .text-md-80 {
+    font-size: 666.66667%;
+  }
+  .text-md-81 {
+    font-size: 675%;
+  }
+  .text-md-82 {
+    font-size: 683.33333%;
+  }
+  .text-md-83 {
+    font-size: 691.66667%;
+  }
+  .text-md-84 {
+    font-size: 700%;
+  }
+  .text-md-85 {
+    font-size: 708.33333%;
+  }
+  .text-md-86 {
+    font-size: 716.66667%;
+  }
+  .text-md-87 {
+    font-size: 725%;
+  }
+  .text-md-88 {
+    font-size: 733.33333%;
+  }
+  .text-md-89 {
+    font-size: 741.66667%;
+  }
+  .text-md-90 {
+    font-size: 750%;
+  }
+  .text-md-91 {
+    font-size: 758.33333%;
+  }
+  .text-md-92 {
+    font-size: 766.66667%;
+  }
+  .text-md-93 {
+    font-size: 775%;
+  }
+  .text-md-94 {
+    font-size: 783.33333%;
+  }
+  .text-md-95 {
+    font-size: 791.66667%;
+  }
+  .text-md-96 {
+    font-size: 800%;
+  }
+  .text-md-97 {
+    font-size: 808.33333%;
+  }
+  .text-md-98 {
+    font-size: 816.66667%;
+  }
+  .text-md-99 {
+    font-size: 825%;
+  }
+  .text-md-100 {
+    font-size: 833.33333%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .text-lg-1 {
+    font-size: 8.33333%;
+  }
+  .text-lg-2 {
+    font-size: 16.66667%;
+  }
+  .text-lg-3 {
+    font-size: 25%;
+  }
+  .text-lg-4 {
+    font-size: 33.33333%;
+  }
+  .text-lg-5 {
+    font-size: 41.66667%;
+  }
+  .text-lg-6 {
+    font-size: 50%;
+  }
+  .text-lg-7 {
+    font-size: 58.33333%;
+  }
+  .text-lg-8 {
+    font-size: 66.66667%;
+  }
+  .text-lg-9 {
+    font-size: 75%;
+  }
+  .text-lg-10 {
+    font-size: 83.33333%;
+  }
+  .text-lg-11 {
+    font-size: 91.66667%;
+  }
+  .text-lg-12 {
+    font-size: 100%;
+  }
+  .text-lg-13 {
+    font-size: 108.33333%;
+  }
+  .text-lg-14 {
+    font-size: 116.66667%;
+  }
+  .text-lg-15 {
+    font-size: 125%;
+  }
+  .text-lg-16 {
+    font-size: 133.33333%;
+  }
+  .text-lg-17 {
+    font-size: 141.66667%;
+  }
+  .text-lg-18 {
+    font-size: 150%;
+  }
+  .text-lg-19 {
+    font-size: 158.33333%;
+  }
+  .text-lg-20 {
+    font-size: 166.66667%;
+  }
+  .text-lg-21 {
+    font-size: 175%;
+  }
+  .text-lg-22 {
+    font-size: 183.33333%;
+  }
+  .text-lg-23 {
+    font-size: 191.66667%;
+  }
+  .text-lg-24 {
+    font-size: 200%;
+  }
+  .text-lg-25 {
+    font-size: 208.33333%;
+  }
+  .text-lg-26 {
+    font-size: 216.66667%;
+  }
+  .text-lg-27 {
+    font-size: 225%;
+  }
+  .text-lg-28 {
+    font-size: 233.33333%;
+  }
+  .text-lg-29 {
+    font-size: 241.66667%;
+  }
+  .text-lg-30 {
+    font-size: 250%;
+  }
+  .text-lg-31 {
+    font-size: 258.33333%;
+  }
+  .text-lg-32 {
+    font-size: 266.66667%;
+  }
+  .text-lg-33 {
+    font-size: 275%;
+  }
+  .text-lg-34 {
+    font-size: 283.33333%;
+  }
+  .text-lg-35 {
+    font-size: 291.66667%;
+  }
+  .text-lg-36 {
+    font-size: 300%;
+  }
+  .text-lg-37 {
+    font-size: 308.33333%;
+  }
+  .text-lg-38 {
+    font-size: 316.66667%;
+  }
+  .text-lg-39 {
+    font-size: 325%;
+  }
+  .text-lg-40 {
+    font-size: 333.33333%;
+  }
+  .text-lg-41 {
+    font-size: 341.66667%;
+  }
+  .text-lg-42 {
+    font-size: 350%;
+  }
+  .text-lg-43 {
+    font-size: 358.33333%;
+  }
+  .text-lg-44 {
+    font-size: 366.66667%;
+  }
+  .text-lg-45 {
+    font-size: 375%;
+  }
+  .text-lg-46 {
+    font-size: 383.33333%;
+  }
+  .text-lg-47 {
+    font-size: 391.66667%;
+  }
+  .text-lg-48 {
+    font-size: 400%;
+  }
+  .text-lg-49 {
+    font-size: 408.33333%;
+  }
+  .text-lg-50 {
+    font-size: 416.66667%;
+  }
+  .text-lg-51 {
+    font-size: 425%;
+  }
+  .text-lg-52 {
+    font-size: 433.33333%;
+  }
+  .text-lg-53 {
+    font-size: 441.66667%;
+  }
+  .text-lg-54 {
+    font-size: 450%;
+  }
+  .text-lg-55 {
+    font-size: 458.33333%;
+  }
+  .text-lg-56 {
+    font-size: 466.66667%;
+  }
+  .text-lg-57 {
+    font-size: 475%;
+  }
+  .text-lg-58 {
+    font-size: 483.33333%;
+  }
+  .text-lg-59 {
+    font-size: 491.66667%;
+  }
+  .text-lg-60 {
+    font-size: 500%;
+  }
+  .text-lg-61 {
+    font-size: 508.33333%;
+  }
+  .text-lg-62 {
+    font-size: 516.66667%;
+  }
+  .text-lg-63 {
+    font-size: 525%;
+  }
+  .text-lg-64 {
+    font-size: 533.33333%;
+  }
+  .text-lg-65 {
+    font-size: 541.66667%;
+  }
+  .text-lg-66 {
+    font-size: 550%;
+  }
+  .text-lg-67 {
+    font-size: 558.33333%;
+  }
+  .text-lg-68 {
+    font-size: 566.66667%;
+  }
+  .text-lg-69 {
+    font-size: 575%;
+  }
+  .text-lg-70 {
+    font-size: 583.33333%;
+  }
+  .text-lg-71 {
+    font-size: 591.66667%;
+  }
+  .text-lg-72 {
+    font-size: 600%;
+  }
+  .text-lg-73 {
+    font-size: 608.33333%;
+  }
+  .text-lg-74 {
+    font-size: 616.66667%;
+  }
+  .text-lg-75 {
+    font-size: 625%;
+  }
+  .text-lg-76 {
+    font-size: 633.33333%;
+  }
+  .text-lg-77 {
+    font-size: 641.66667%;
+  }
+  .text-lg-78 {
+    font-size: 650%;
+  }
+  .text-lg-79 {
+    font-size: 658.33333%;
+  }
+  .text-lg-80 {
+    font-size: 666.66667%;
+  }
+  .text-lg-81 {
+    font-size: 675%;
+  }
+  .text-lg-82 {
+    font-size: 683.33333%;
+  }
+  .text-lg-83 {
+    font-size: 691.66667%;
+  }
+  .text-lg-84 {
+    font-size: 700%;
+  }
+  .text-lg-85 {
+    font-size: 708.33333%;
+  }
+  .text-lg-86 {
+    font-size: 716.66667%;
+  }
+  .text-lg-87 {
+    font-size: 725%;
+  }
+  .text-lg-88 {
+    font-size: 733.33333%;
+  }
+  .text-lg-89 {
+    font-size: 741.66667%;
+  }
+  .text-lg-90 {
+    font-size: 750%;
+  }
+  .text-lg-91 {
+    font-size: 758.33333%;
+  }
+  .text-lg-92 {
+    font-size: 766.66667%;
+  }
+  .text-lg-93 {
+    font-size: 775%;
+  }
+  .text-lg-94 {
+    font-size: 783.33333%;
+  }
+  .text-lg-95 {
+    font-size: 791.66667%;
+  }
+  .text-lg-96 {
+    font-size: 800%;
+  }
+  .text-lg-97 {
+    font-size: 808.33333%;
+  }
+  .text-lg-98 {
+    font-size: 816.66667%;
+  }
+  .text-lg-99 {
+    font-size: 825%;
+  }
+  .text-lg-100 {
+    font-size: 833.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .text-xl-1 {
+    font-size: 8.33333%;
+  }
+  .text-xl-2 {
+    font-size: 16.66667%;
+  }
+  .text-xl-3 {
+    font-size: 25%;
+  }
+  .text-xl-4 {
+    font-size: 33.33333%;
+  }
+  .text-xl-5 {
+    font-size: 41.66667%;
+  }
+  .text-xl-6 {
+    font-size: 50%;
+  }
+  .text-xl-7 {
+    font-size: 58.33333%;
+  }
+  .text-xl-8 {
+    font-size: 66.66667%;
+  }
+  .text-xl-9 {
+    font-size: 75%;
+  }
+  .text-xl-10 {
+    font-size: 83.33333%;
+  }
+  .text-xl-11 {
+    font-size: 91.66667%;
+  }
+  .text-xl-12 {
+    font-size: 100%;
+  }
+  .text-xl-13 {
+    font-size: 108.33333%;
+  }
+  .text-xl-14 {
+    font-size: 116.66667%;
+  }
+  .text-xl-15 {
+    font-size: 125%;
+  }
+  .text-xl-16 {
+    font-size: 133.33333%;
+  }
+  .text-xl-17 {
+    font-size: 141.66667%;
+  }
+  .text-xl-18 {
+    font-size: 150%;
+  }
+  .text-xl-19 {
+    font-size: 158.33333%;
+  }
+  .text-xl-20 {
+    font-size: 166.66667%;
+  }
+  .text-xl-21 {
+    font-size: 175%;
+  }
+  .text-xl-22 {
+    font-size: 183.33333%;
+  }
+  .text-xl-23 {
+    font-size: 191.66667%;
+  }
+  .text-xl-24 {
+    font-size: 200%;
+  }
+  .text-xl-25 {
+    font-size: 208.33333%;
+  }
+  .text-xl-26 {
+    font-size: 216.66667%;
+  }
+  .text-xl-27 {
+    font-size: 225%;
+  }
+  .text-xl-28 {
+    font-size: 233.33333%;
+  }
+  .text-xl-29 {
+    font-size: 241.66667%;
+  }
+  .text-xl-30 {
+    font-size: 250%;
+  }
+  .text-xl-31 {
+    font-size: 258.33333%;
+  }
+  .text-xl-32 {
+    font-size: 266.66667%;
+  }
+  .text-xl-33 {
+    font-size: 275%;
+  }
+  .text-xl-34 {
+    font-size: 283.33333%;
+  }
+  .text-xl-35 {
+    font-size: 291.66667%;
+  }
+  .text-xl-36 {
+    font-size: 300%;
+  }
+  .text-xl-37 {
+    font-size: 308.33333%;
+  }
+  .text-xl-38 {
+    font-size: 316.66667%;
+  }
+  .text-xl-39 {
+    font-size: 325%;
+  }
+  .text-xl-40 {
+    font-size: 333.33333%;
+  }
+  .text-xl-41 {
+    font-size: 341.66667%;
+  }
+  .text-xl-42 {
+    font-size: 350%;
+  }
+  .text-xl-43 {
+    font-size: 358.33333%;
+  }
+  .text-xl-44 {
+    font-size: 366.66667%;
+  }
+  .text-xl-45 {
+    font-size: 375%;
+  }
+  .text-xl-46 {
+    font-size: 383.33333%;
+  }
+  .text-xl-47 {
+    font-size: 391.66667%;
+  }
+  .text-xl-48 {
+    font-size: 400%;
+  }
+  .text-xl-49 {
+    font-size: 408.33333%;
+  }
+  .text-xl-50 {
+    font-size: 416.66667%;
+  }
+  .text-xl-51 {
+    font-size: 425%;
+  }
+  .text-xl-52 {
+    font-size: 433.33333%;
+  }
+  .text-xl-53 {
+    font-size: 441.66667%;
+  }
+  .text-xl-54 {
+    font-size: 450%;
+  }
+  .text-xl-55 {
+    font-size: 458.33333%;
+  }
+  .text-xl-56 {
+    font-size: 466.66667%;
+  }
+  .text-xl-57 {
+    font-size: 475%;
+  }
+  .text-xl-58 {
+    font-size: 483.33333%;
+  }
+  .text-xl-59 {
+    font-size: 491.66667%;
+  }
+  .text-xl-60 {
+    font-size: 500%;
+  }
+  .text-xl-61 {
+    font-size: 508.33333%;
+  }
+  .text-xl-62 {
+    font-size: 516.66667%;
+  }
+  .text-xl-63 {
+    font-size: 525%;
+  }
+  .text-xl-64 {
+    font-size: 533.33333%;
+  }
+  .text-xl-65 {
+    font-size: 541.66667%;
+  }
+  .text-xl-66 {
+    font-size: 550%;
+  }
+  .text-xl-67 {
+    font-size: 558.33333%;
+  }
+  .text-xl-68 {
+    font-size: 566.66667%;
+  }
+  .text-xl-69 {
+    font-size: 575%;
+  }
+  .text-xl-70 {
+    font-size: 583.33333%;
+  }
+  .text-xl-71 {
+    font-size: 591.66667%;
+  }
+  .text-xl-72 {
+    font-size: 600%;
+  }
+  .text-xl-73 {
+    font-size: 608.33333%;
+  }
+  .text-xl-74 {
+    font-size: 616.66667%;
+  }
+  .text-xl-75 {
+    font-size: 625%;
+  }
+  .text-xl-76 {
+    font-size: 633.33333%;
+  }
+  .text-xl-77 {
+    font-size: 641.66667%;
+  }
+  .text-xl-78 {
+    font-size: 650%;
+  }
+  .text-xl-79 {
+    font-size: 658.33333%;
+  }
+  .text-xl-80 {
+    font-size: 666.66667%;
+  }
+  .text-xl-81 {
+    font-size: 675%;
+  }
+  .text-xl-82 {
+    font-size: 683.33333%;
+  }
+  .text-xl-83 {
+    font-size: 691.66667%;
+  }
+  .text-xl-84 {
+    font-size: 700%;
+  }
+  .text-xl-85 {
+    font-size: 708.33333%;
+  }
+  .text-xl-86 {
+    font-size: 716.66667%;
+  }
+  .text-xl-87 {
+    font-size: 725%;
+  }
+  .text-xl-88 {
+    font-size: 733.33333%;
+  }
+  .text-xl-89 {
+    font-size: 741.66667%;
+  }
+  .text-xl-90 {
+    font-size: 750%;
+  }
+  .text-xl-91 {
+    font-size: 758.33333%;
+  }
+  .text-xl-92 {
+    font-size: 766.66667%;
+  }
+  .text-xl-93 {
+    font-size: 775%;
+  }
+  .text-xl-94 {
+    font-size: 783.33333%;
+  }
+  .text-xl-95 {
+    font-size: 791.66667%;
+  }
+  .text-xl-96 {
+    font-size: 800%;
+  }
+  .text-xl-97 {
+    font-size: 808.33333%;
+  }
+  .text-xl-98 {
+    font-size: 816.66667%;
+  }
+  .text-xl-99 {
+    font-size: 825%;
+  }
+  .text-xl-100 {
+    font-size: 833.33333%;
+  }
+}
+
 * {
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -4081,10 +5318,24 @@ ul li {
 
 body {
   margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   min-height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
 }
 /*# sourceMappingURL=index.css.map */

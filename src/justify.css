@@ -26,4 +26,22 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-/*# sourceMappingURL=justify.css.map */
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.text-start {
+  text-align: left;
+}
+
+.text-middle {
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+/*# sourceMappingURL=Justify.css.map */

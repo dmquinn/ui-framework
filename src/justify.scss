@@ -15,3 +15,19 @@
     justify-content: space-around;
   }
 }
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-end {
+    text-align: right;
+  }
+
+  &-start {
+    text-align: left;
+  }
+  &-middle {
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+}

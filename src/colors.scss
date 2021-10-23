@@ -43,7 +43,7 @@ $colors: (
     }
   }
   .text-#{$name} {
-    background-color: $color;
+    color: $color;
 
     &-dark {
       color: darken($color, 20%);

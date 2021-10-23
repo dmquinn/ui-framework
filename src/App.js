@@ -1,19 +1,41 @@
 const App = () => {
   return (
     <>
-      <div className="card w-30 h-30 bg-red">
-        <img
-          className="cardImg fill"
-          src="https://images.unsplash.com/photo-1491566102020-21838225c3c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=361&q=80"
-        />
-        <div className="h-5 w-20 glass-light rounded mt--5 ml-5"></div>
+      <div className="container">
+        {" "}
+        <div className="row">
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-red"></div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-red-dark"></div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-red-darker"></div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-red-lighter text-center">
+              <h5 className="text-middle">HELLO YOU</h5>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-blue"></div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-blue-dark"></div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-blue-darker"></div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3">
+            <div className="w-full h-5 bg-blue-darkest text-center">
+              <h1 className="text-sm-10 text-md-15 text-lg-40 text-white text-middle">
+                HELLO
+              </h1>
+            </div>
+          </div>
+        </div>
       </div>
-      <ul>
-        <li className="bold">REALLY</li>
-        <li className="text-100">REALLY</li>
-        <li>REALLY</li>
-        <li>REALLY</li>
-      </ul>
     </>
   );
 };
